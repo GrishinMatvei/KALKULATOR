@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.orig
+*.refsignored
+*.cache
+*.user
+.suo
+.vs/
+.idea/
+Bin/
+/obj/
+[Bb]in/
+/Uploads/
+.suo
+/bin/
+syntax: glob
+obj/
+*.orig
+packages/
+*.refsignored
+*.user
+*.cache
+packages/*
+AspXamarin1/AspXamarin/wwwroot/dist
+/.vscode/
+/publish
